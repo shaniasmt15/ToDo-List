@@ -1,0 +1,97 @@
+.hero {
+    background-color: #ECE8DD;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #8B7E74;
+    color: white;
+}
+
+.nama {
+    padding-bottom: 1%;
+}
+
+.submit {
+    margin: 5px 20px 5px 20px;
+    border-radius: 10px;
+    /* background-color: #DFD3C3;
+    color: #8B7E74; */
+}
+
+.loginWrapper {
+    border-color: #8B7E74;
+    height: 500px;
+    background-color: #DFD3C3;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #8B7E74;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tulisanLogin {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    top: 25%;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 990px) {
+    .tulisanLogin {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        top: 15%;
+    }
+    .login {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        border-radius: 10px;
+        flex-direction: column;
+        background-color: #8B7E74;
+        color: white;
+    }
+    .loginWrapper {
+        border-color: #8B7E74;
+        height: 300px;
+        background-color: #DFD3C3;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        color: #8B7E74;
+        justify-content: center;
+    }
+    .submit {
+        display: flex;
+        margin: 5px 10px 5px 10px;
+        border-radius: 1px;
+        /* background-color: #DFD3C3;
+        color: #8B7E74; */
+    }
+}
