@@ -39,7 +39,6 @@
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     border-radius: 5%;
 }
 
@@ -108,32 +107,17 @@
 
 .navBar {
     display: flex;
-    justify-content: end;
-    margin-top: 2%;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .profile {
-    /* display: flex; */
     margin-right: 5%;
-    margin-top: 30px;
-    justify-content: start;
-}
-
-.navWrapper {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #8B7E74;
-    padding-top: 2%;
+    margin-top: 20px;
 }
 
 .logOut {
-    display: flex;
-    justify-content: end;
-    margin-right: 5%;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -145,7 +129,7 @@
 }
 
 
-@media only screen and (min-width: 480px) and (max-width: 990px) {
+@media only screen and (min-width: 420px) and (max-width: 990px) {
     .boxWrapper {
         box-sizing: border-box;
         flex-wrap: wrap;
@@ -226,30 +210,16 @@
     }
     .navBar {
         display: flex;
-        justify-content: end;
-        margin-top: 2%;
+        justify-content: space-between;
+        margin-top: 20px;
     }
     .profile {
-        /* display: flex; */
         margin-right: 5%;
-        margin-top: 30%;
-        justify-content: start;
+        margin-top: 20px;
     }
-    .navWrapper {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* background-color: #8B7E74; */
-        color: #8B7E74;
-        padding-top: 2%;
-    }
+
     .logOut {
-        display: flex;
-        justify-content: end;
-        margin-right: 5%;
-        margin-bottom: 180px;
-        
+        margin-top: 20px;     
     }
     #buttonLogOut {
         border-radius: 10%;
