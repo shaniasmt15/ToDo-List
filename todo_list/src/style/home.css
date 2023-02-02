@@ -110,8 +110,6 @@
 .delete {
     display: flex;
     flex-direction: row;
-    /* margin-bottom: 15%; */
-    /* padding-right: 5px; */
 }
 
 .navBar {
@@ -211,7 +209,6 @@
         flex-direction: row;
         justify-content: space-around;
         box-sizing: border-box;
-        padding: 5px;
     }
 
     .change {
@@ -224,8 +221,6 @@
     .delete {
         display: flex;
         flex-direction: row;
-        /* margin-bottom: 15%; */
-        /* padding-right: 5px; */
     }
 
     .navBar {
