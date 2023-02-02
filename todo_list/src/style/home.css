@@ -42,19 +42,12 @@
     border-radius: 5%;
 }
 
-.head {
-    width: 100%;
-
-}
-
 .upper {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     width: 100%;
-    height: 230px;
+    height: 75%;
     flex-wrap: wrap;
-    box-sizing: border-box;
     padding: 10%;
     background-color: white;
 }
@@ -63,6 +56,11 @@
     width: 100%;
     height: 10%;
     margin-bottom: 20px;
+}
+
+.head {
+    width: 100%;
+
 }
 
 .status {
@@ -92,7 +90,7 @@
 
 .inputCB {
     width: 20px;
-    margin-bottom: 3%;
+    margin-bottom: 8px;
 }
 
 .deleteChange {
@@ -100,9 +98,20 @@
     flex-direction: row;
     justify-content: space-around;
     box-sizing: border-box;
-    margin-left: 15%;
-    /* padding-right: 5px; */
+}
 
+.change {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 7px;
+}
+
+.delete {
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 15%; */
+    /* padding-right: 5px; */
 }
 
 .navBar {
@@ -129,9 +138,9 @@
 }
 
 
-@media only screen and (min-width: 420px) and (max-width: 990px) {
+@media only screen and (min-width: 375px) and (max-width: 763px) {
     .boxWrapper {
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         flex-wrap: wrap;
         display: flex;
         flex-direction: row;
@@ -153,23 +162,15 @@
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         border-radius: 5%;
     }
-    .head {
-        width: 100%;
 
-    }
     .upper {
-        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 200px;
-        flex-wrap: wrap;
-        box-sizing: border-box;
+        height: 75%;
         padding: 10%;
-        left: 2.5%;
         background-color: white;
     }
     .id {
@@ -177,6 +178,10 @@
         height: 10%;
         margin-bottom: 20px;
     }
+    .head {
+        width: 100%;
+    }
+
     .status {
         position: relative;
         width: 100%;
@@ -197,8 +202,8 @@
         width: 100%;
     }
     .inputCB {
-        width: 20px;
-        margin-bottom: 3%;
+        width: 15px;
+        margin-bottom: 13px;
     }
     .deleteChange {
         position: relative;
@@ -208,6 +213,21 @@
         box-sizing: border-box;
         padding: 5px;
     }
+
+    .change {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+        margin-right: 7px;
+    }
+
+    .delete {
+        display: flex;
+        flex-direction: row;
+        /* margin-bottom: 15%; */
+        /* padding-right: 5px; */
+    }
+
     .navBar {
         display: flex;
         justify-content: space-between;
@@ -225,3 +245,4 @@
         border-radius: 10%;
     }
 }
+

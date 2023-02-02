@@ -143,7 +143,7 @@ const Home = () => {
                     <hr></hr>
                   </div>
                   <div className="status">
-                    <h4>{each.completed ? "Done" : "Not Done"}</h4>
+                    <h6>{each.completed ? "Done" : "Not Done"}</h6>
                     <input
                       type="checkbox"
                       className="inputCB"
